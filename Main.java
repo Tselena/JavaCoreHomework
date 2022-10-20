@@ -8,14 +8,6 @@ import ObstacleCourse.Swim;
 public class Main {
     public static void main(String[] args) {
 
-        /*
-        Course course = new Course(); // Создание полосы препятствий
-        Team team = new Team();       // Создание команды
-        course.doIt(team);            // Просим команду пройти полосу
-        team.showResults();           // Показываем результаты
-        */
-
-
         Team teamOne = new Team("Dream",
                 new TeamMember("Igor", 50),
                 new TeamMember("Nikolai", 150),
